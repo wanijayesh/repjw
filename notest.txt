@@ -1,0 +1,10 @@
+new 
+assigned
+open ------reject,duplicate
+fixed
+retest
+closed
+
+
+customer(initiate purchase)->merchant(process the credit cardinfo and request authorization)->payment gateway(routes info to proccesr)->processor(submit auth reqs to CN).->card network(submit auth request to issuer)->Issuer(approves txn)
+Issuer->CN(fwd auth to acquiribank)->Acquirer(fwd to merch)->merchant(accept the txn)->cutomer(received the purchase item)
